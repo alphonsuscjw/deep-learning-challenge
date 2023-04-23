@@ -44,6 +44,8 @@ Steps taken to increase model performance
 
 * In my third attempt, I added a fourth layer with 40 neurons using sigmoid function and increased the neurons in the second layer to 100 and the third layer to 75. Loss: 0.5611671209335327, Accuracy: 0.7262973785400391. Loss improved a little and accuracy worsened slightly further. The loss graph fluctuates even a little more but still sort of flattens at 90-100 epochs. So 100 is an optimal number of epoch.
 <img width="385" alt="image" src="https://user-images.githubusercontent.com/115685811/233822015-c9bb4e6e-72e8-424a-9818-417b91391989.png">
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/115685811/233822414-2d8052a6-3025-4ad2-a7e5-75038868d8b6.png">
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/115685811/233822442-e9decdc8-f297-4935-939d-8870d1bd3752.png">
 
 * Since having more hidden layers and neurons and changing activation functions still gave similar, slightly worse accuracy score and so I reverted to the original model with lesser hidden layers and neurons since it is better to use less computational resources for the same performance.
 
